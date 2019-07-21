@@ -1,0 +1,29 @@
+Started by upstream project "[8mha:////4Ncnvo99yDac/TOI/FWfkHgmL5J8zLRdzVMBD5Z5i6CJAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH2n1LT8otSAzIJUoL2p+gBeuSkYyQAAAA==[0mBeforePipeline" build number [8mha:////4JV6A0Nj/R5xJEoPsKrIfsSxiwx9Sw/ZDCn8YZ0P+tWhAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JH2n1LT8otSAzIJUoL2p+obmABK7lzvLAAAA[0m17
+originally caused by:
+ Started by upstream project "[8mha:////4GiOGWmzgiNyk5esjfXZ25ZUjWQtjsGBhTEQATzKagqwAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2n1LT8olTXvJKiSn0AeITa6cYAAAA=[0mBeforeEntry" build number [8mha:////4Nl2VkgJEJo9h7oMqDQRaSEm8JXhLBNMwM0lQPIg9BsbAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2n1LT8olTXvJKiSn1jSwCkfYC2yAAAAA==[0m39
+ originally caused by:
+  Started by remote host 172.18.0.1
+  Started by user [8mha:////4HU4tJLydszMWVLs6lNDE7NcXzczNsRTEV8LyYpkVW75AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+  Started by upstream project "[8mha:////4GiOGWmzgiNyk5esjfXZ25ZUjWQtjsGBhTEQATzKagqwAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2n1LT8olTXvJKiSn0AeITa6cYAAAA=[0mBeforeEntry" build number [8mha:////4FHBfnUsNRHomkJqEOtt8vJueLH61s2sBqN4pk3xefgKAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2n1LT8olTXvJKiSn1jCwAyTYfByAAAAA==[0m38
+  originally caused by:
+   Started by remote host 172.18.0.1
+   Started by user [8mha:////4HU4tJLydszMWVLs6lNDE7NcXzczNsRTEV8LyYpkVW75AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+   Started by upstream project "[8mha:////4GiOGWmzgiNyk5esjfXZ25ZUjWQtjsGBhTEQATzKagqwAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2n1LT8olTXvJKiSn0AeITa6cYAAAA=[0mBeforeEntry" build number [8mha:////4Egf6I2pNgsLZ60SLLiJEo4660o1MANvPy/p0UpmBjv1AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2n1LT8olTXvJKiSn1jcwCjUDhRyAAAAA==[0m37
+   originally caused by:
+    Started by remote host 172.18.0.1
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BeforeBuild
+[BeforeBuild] $ /bin/sh -xe /tmp/jenkins4130102632014213380.sh
++ docker run -d --rm --net=host -v /home/bai/baipengbo/workspace:/home/workspace -v /home/bai/baipengbo/script:/home/script baipengbo/build:latest /bin/bash -c sleep 3 && cd /home/script/build_before && python3 build.py 3 5 ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git http://127.0.0.1:8888/job/BeforePipeline/17/
++ container=bd4d092e5421a1dd3c8b23b15808dc0aca6aad80717481cca34471eae6a693e5
++ docker attach bd4d092e5421a1dd3c8b23b15808dc0aca6aad80717481cca34471eae6a693e5
+2019-07-21 [build.py:76:INFO] Namespace(diff='5', jenkinks_url='http://127.0.0.1:8888/job/BeforePipeline/17/', repo_uri='ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git', revision='3', stage_uri='ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git')
+2019-07-21 [build.py:28:INFO] Revision status: 0
+2019-07-21 [build.py:37:INFO] Build status: 1
+2019-07-21 [build.py:46:INFO] Title msg: IMPORTANT: build fail
+2019-07-21 [build.py:55:INFO] | Build | Klockworks | Coverity | UT/FT 
+                       | ----- | ----- | ----- | ----- 
+                       | {icon times color=red} | {icon times color=red} | {icon times color=red} | {icon times color=red} 
+                       | [[http://127.0.0.1:8888/job/BeforePipeline/17/ | Link]] | [[http://127.0.0.1:8888/job/BeforePipeline/17/ | Link]] | [[http://127.0.0.1:8888/job/BeforePipeline/17/ | Link]] | [[http://127.0.0.1:8888/job/BeforePipeline/17/ | Link]] 
+                    
+Finished: SUCCESS

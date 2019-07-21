@@ -1,0 +1,7 @@
+Started by remote host 172.18.0.1
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/AfterEntry
+[AfterEntry] $ /bin/sh -xe /tmp/jenkins346938743570544077.sh
++ echo do everyting
+do everyting
+Finished: SUCCESS

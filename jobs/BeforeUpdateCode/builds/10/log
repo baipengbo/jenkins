@@ -1,0 +1,32 @@
+Started by upstream project "[8mha:////4Ncnvo99yDac/TOI/FWfkHgmL5J8zLRdzVMBD5Z5i6CJAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH2n1LT8otSAzIJUoL2p+gBeuSkYyQAAAA==[0mBeforePipeline" build number [8mha:////4JV6A0Nj/R5xJEoPsKrIfsSxiwx9Sw/ZDCn8YZ0P+tWhAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JH2n1LT8otSAzIJUoL2p+obmABK7lzvLAAAA[0m17
+originally caused by:
+ Started by upstream project "[8mha:////4GiOGWmzgiNyk5esjfXZ25ZUjWQtjsGBhTEQATzKagqwAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2n1LT8olTXvJKiSn0AeITa6cYAAAA=[0mBeforeEntry" build number [8mha:////4Nl2VkgJEJo9h7oMqDQRaSEm8JXhLBNMwM0lQPIg9BsbAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2n1LT8olTXvJKiSn1jSwCkfYC2yAAAAA==[0m39
+ originally caused by:
+  Started by remote host 172.18.0.1
+  Started by user [8mha:////4HU4tJLydszMWVLs6lNDE7NcXzczNsRTEV8LyYpkVW75AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+  Started by upstream project "[8mha:////4GiOGWmzgiNyk5esjfXZ25ZUjWQtjsGBhTEQATzKagqwAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2n1LT8olTXvJKiSn0AeITa6cYAAAA=[0mBeforeEntry" build number [8mha:////4FHBfnUsNRHomkJqEOtt8vJueLH61s2sBqN4pk3xefgKAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2n1LT8olTXvJKiSn1jCwAyTYfByAAAAA==[0m38
+  originally caused by:
+   Started by remote host 172.18.0.1
+   Started by user [8mha:////4HU4tJLydszMWVLs6lNDE7NcXzczNsRTEV8LyYpkVW75AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+   Started by upstream project "[8mha:////4GiOGWmzgiNyk5esjfXZ25ZUjWQtjsGBhTEQATzKagqwAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2n1LT8olTXvJKiSn0AeITa6cYAAAA=[0mBeforeEntry" build number [8mha:////4Egf6I2pNgsLZ60SLLiJEo4660o1MANvPy/p0UpmBjv1AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2n1LT8olTXvJKiSn1jcwCjUDhRyAAAAA==[0m37
+   originally caused by:
+    Started by remote host 172.18.0.1
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BeforeUpdateCode
+[BeforeUpdateCode] $ /bin/sh -xe /tmp/jenkins5073103899721499935.sh
++ docker run -d --rm --net=host -v /home/bai/baipengbo/workspace:/home/workspace -v /home/bai/baipengbo/script:/home/script baipengbo/build:latest env LANG=C.UTF-8 /bin/bash -c sleep 3 && cd /home/script/build_before && python3 update_code.py 3 5 ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git
++ container=0ae1d8f728e6e2c89de7f5234d03c4e130fb2ab22bf3b8f8c6223ec5eeb23ce9
++ docker attach 0ae1d8f728e6e2c89de7f5234d03c4e130fb2ab22bf3b8f8c6223ec5eeb23ce9
+2019-07-21 [update_code.py:70:INFO] Namespace(diff='5', repo_uri='ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git', revision='3', stage_uri='ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git')
+2019-07-21 [update_code.py:30:INFO] BRANCH： master
+2019-07-21 [update_code.py:31:INFO] USRE_NAME: 白鹏博
+2019-07-21 [utils.py:9:INFO] Exec cmd: git clean -df
+2019-07-21 [utils.py:9:INFO] Exec cmd: git reset --hard
+2019-07-21 [utils.py:9:INFO] Exec cmd: git branch | grep "\* master" || git checkout master
+2019-07-21 [utils.py:9:INFO] Exec cmd: git fetch
+2019-07-21 [utils.py:9:INFO] Exec cmd: git reset --hard origin/master
+2019-07-21 [utils.py:9:INFO] Exec cmd: git remote remove STAGE || echo "del stage remote"
+2019-07-21 [utils.py:9:INFO] Exec cmd: git remote add STAGE ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git
+2019-07-21 [utils.py:9:INFO] Exec cmd: git fetch STAGE tag phabricator/diff/5
+2019-07-21 [utils.py:9:INFO] Exec cmd: git merge phabricator/diff/5
+Finished: SUCCESS

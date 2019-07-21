@@ -1,0 +1,5 @@
+Started by remote host 172.19.0.1
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/AfterEntry
+[AfterEntry] $ /bin/sh -xe /tmp/jenkins2325882611976978622.sh
+Finished: SUCCESS

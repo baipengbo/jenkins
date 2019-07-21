@@ -1,0 +1,11 @@
+Started by remote host 172.18.0.1
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BeforeEntry
+[BeforeEntry] $ /bin/sh -xe /tmp/jenkins1801117594271237307.sh
++ docker run -d --rm -v /home/bai/baipengbo/workspace:/home/workspace -v /home/bai/baipengbo/script:/home/script baipengbo/build:latest /bin/bash -c sleep 3 && cd /home/script/build_before && python3 entry.py 3 5 ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git
++ container=47d09d2ffb4931763bede013b765c8419d816c31dae51949d13b50e92b72948d
++ docker attach 47d09d2ffb4931763bede013b765c8419d816c31dae51949d13b50e92b72948d
+2019-07-21 [entry.py:41:INFO] Namespace(diff='5', repo_uri='ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git', revision='3', stage_uri='ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git')
+2019-07-21 [entry.py:23:INFO] Record data to database
+Build step 'Execute shell' changed build result to UNSTABLE
+Finished: UNSTABLE

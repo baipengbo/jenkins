@@ -1,0 +1,13 @@
+Started by user [8mha:////4HU4tJLydszMWVLs6lNDE7NcXzczNsRTEV8LyYpkVW75AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Rebuilds build #[8mha:////4JiLWgyh/syzM0RGC7z8m5Eljruir+wUZ+V5gvguwZkRAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6Tqlp+UWpTqWZOSn6pgBn7j1+xwAAAA==[0m5
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BeforeBuild
+[BeforeBuild] $ /bin/sh -xe /tmp/jenkins2479388784235368220.sh
++ docker run -d --rm --net=host -v /opt/workspace:/home/workspace build:latest /bin/bash -c sleep 3 && cd /home/workspace/script/build_before && python3 build.py 2 3 ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git http://127.0.0.1:8888/job/BeforeBuild
++ container=1432cd149044ec428d477d39482a18a45622415fa7c3a7019d3ff3b0f51213de
++ docker attach 1432cd149044ec428d477d39482a18a45622415fa7c3a7019d3ff3b0f51213de
+2019-07-21 [build.py:76:INFO] Namespace(diff='3', jenkinks_url='http://127.0.0.1:8888/job/BeforeBuild', repo_uri='ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git', revision='2', stage_uri='ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git')
+2019-07-21 [build.py:28:INFO] Revision status: 3
+2019-07-21 [build.py:30:WARNING] Revision was Closed or Abandoned
+Build step 'Execute shell' changed build result to UNSTABLE
+Finished: UNSTABLE

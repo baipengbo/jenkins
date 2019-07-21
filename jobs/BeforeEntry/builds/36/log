@@ -1,0 +1,13 @@
+Started by remote host 172.19.0.1
+Started by user [8mha:////4HU4tJLydszMWVLs6lNDE7NcXzczNsRTEV8LyYpkVW75AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Rebuilds build #[8mha:////4FoOdEWCiOE0zfa4HrRqxsjUniceQ64YLgxRuNzafpGhAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2n1LT8olTXvJKiSn1jUwCPMTa/yAAAAA==[0m35
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BeforeEntry
+[BeforeEntry] $ /bin/sh -xe /tmp/jenkins287622618754285437.sh
++ docker run -d --rm -v /home/bai/baipengbo/workspace:/home/workspace -v /home/bai/baipengbo/script:/home/script baipengbo/build:latest /bin/bash -c sleep 3 && cd /home/script/build_before && python3 entry.py 2 3 ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git
++ container=2d59c2bfe57fe7c44ccb295f25c89a6cafccfc52fad7f01a34dafad81fc76af1
++ docker attach 2d59c2bfe57fe7c44ccb295f25c89a6cafccfc52fad7f01a34dafad81fc76af1
+2019-07-21 [entry.py:41:INFO] Namespace(diff='3', repo_uri='ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git', revision='2', stage_uri='ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git')
+2019-07-21 [entry.py:23:INFO] Record data to database
+Build step 'Execute shell' changed build result to UNSTABLE
+Finished: UNSTABLE

@@ -1,0 +1,143 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.33">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>REVISION</name>
+          <description></description>
+          <value>3</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>DIFF</name>
+          <description></description>
+          <value>6</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>REPO_URI</name>
+          <description></description>
+          <value>ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>STAGE_URI</name>
+          <description></description>
+          <value>ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>REVISION</string>
+        <string>DIFF</string>
+        <string>REPO_URI</string>
+        <string>STAGE_URI</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>BeforeEntry</upstreamProject>
+            <upstreamUrl>job/BeforeEntry/</upstreamUrl>
+            <upstreamBuild>40</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-RemoteCause>
+                <addr>172.18.0.1</addr>
+              </hudson.model.Cause_-RemoteCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.14">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.72">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.31"/>
+  </actions>
+  <queueId>77</queueId>
+  <timestamp>1563709319368</timestamp>
+  <startTime>1563709319445</startTime>
+  <result>SUCCESS</result>
+  <duration>44497</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>node(&quot;master&quot;) {
+    echo &apos;Hello World&apos;
+    load &quot;${SCRIPT_PATH}/build_before/pipeline.groovy&quot;
+}</script>
+    <loadedScripts class="map">
+      <entry>
+        <string>Script1</string>
+        <string>#!/groovy
+static main(String[] args) {
+    timestamps {
+        pipeline_build()
+    }
+}
+
+def pipeline_build(){
+    revision = env.REVISION
+    diff = env.diff
+    repo_uri = env.repo_uri
+    stage_uri = env.stage_uri
+    jenkins_url = env.BUILD_URL
+
+    stage(&quot;echo info&quot;){
+        println &quot;REVISION: ${revision}\n&quot; + 
+        &quot;DIFF: ${diff}\n&quot; +
+        &quot;REPO_URI: ${repo_uri}\n&quot; +
+        &quot;STAGE_URI: ${stage_uri}\n&quot; +
+        &quot;JENKINS_URL: ${jenkins_url}&quot; 
+    }
+
+    stage(&quot;update code&quot;){
+        build job: &apos;BeforeUpdateCode&apos;, parameters: [string(name: &apos;REVISION&apos;, value: &quot;${revision}&quot;),
+            string(name: &apos;DIFF&apos;, value: &quot;${diff}&quot;), string(name: &apos;REPO_URI&apos;, value: &quot;${repo_uri}&quot;),
+            string(name: &apos;STAGE_URI&apos;, value: &quot;${stage_uri}&quot;)]
+    }
+
+    stage(&quot;build&quot;) {
+        build job: &apos;BeforeBuild&apos;, parameters: [string(name: &apos;REVISION&apos;, value: &quot;${revision}&quot;),
+            string(name: &apos;DIFF&apos;, value: &quot;${diff}&quot;), string(name: &apos;REPO_URI&apos;, value: &quot;${repo_uri}&quot;),
+            string(name: &apos;STAGE_URI&apos;, value: &quot;${stage_uri}&quot;), string(name: &apos;JENKINS_URL&apos;, value: &quot;${jenkins_url}&quot;)]
+    }
+}</string>
+      </entry>
+    </loadedScripts>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>4380429665</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>106036342</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>7565931068</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>119965833</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>198287879</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>31</iota>
+    <head>1:31</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

@@ -1,0 +1,12 @@
+Started by remote host 172.19.0.1
+Started by user [8mha:////4HU4tJLydszMWVLs6lNDE7NcXzczNsRTEV8LyYpkVW75AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Rebuilds build #[8mha:////4AXyRa5rP2iQTNbFfYpxF609iSK5svRwjwJK06NP/cGeAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2n1LT8olTXvJKiSn0jAwBB9EfWyAAAAA==[0m20
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BeforeEntry
+[BeforeEntry] $ /bin/sh -xe /tmp/jenkins5470465683669737712.sh
++ docker run -d --rm -v /opt/workspace:/home/workspace build:latest /bin/bash -c sleep 3 && cd /home/workspace/script/build_before && python3 entry.py 1 1 ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git
++ container=8cb2422fbec343639e61625b4cf531d62ecba3a67ebc4336e296ebc5571b5844
++ docker attach 8cb2422fbec343639e61625b4cf531d62ecba3a67ebc4336e296ebc5571b5844
+2019-07-20 [entry.py:40:INFO] Namespace(diff='1', repo_uri='ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git', revision='1', stage_uri='ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git')
+2019-07-20 [entry.py:23:INFO] Record data to database
+Finished: SUCCESS

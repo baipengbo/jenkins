@@ -1,0 +1,21 @@
+Started by upstream project "[8mha:////4Ncnvo99yDac/TOI/FWfkHgmL5J8zLRdzVMBD5Z5i6CJAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH2n1LT8otSAzIJUoL2p+gBeuSkYyQAAAA==[0mBeforePipeline" build number [8mha:////4M2adMnkJmB6d4HRjR2sytNZyCgSmwmpj1SZj2+nCfHXAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JH2n1LT8otSAzIJUoL2p+oYWAIOmKKvLAAAA[0m18
+originally caused by:
+ Started by upstream project "[8mha:////4GiOGWmzgiNyk5esjfXZ25ZUjWQtjsGBhTEQATzKagqwAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2n1LT8olTXvJKiSn0AeITa6cYAAAA=[0mBeforeEntry" build number [8mha:////4N5VATVRzG7FKjpxNIcg9mKH1S/qGtReG0+LvMD/UY5PAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2n1LT8olTXvJKiSn0TAwDHUx2AyAAAAA==[0m40
+ originally caused by:
+  Started by remote host 172.18.0.1
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BeforeBuild
+[BeforeBuild] $ /bin/sh -xe /tmp/jenkins6436861029440440881.sh
++ docker run -d --rm --net=host -v /home/bai/baipengbo/workspace:/home/workspace -v /home/bai/baipengbo/script:/home/script baipengbo/build:latest /bin/bash -c sleep 3 && cd /home/script/build_before && python3 build.py 3 6 ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git http://127.0.0.1:8888/job/BeforePipeline/18/
++ container=f1243bf3de77e828b74cefea199751941dc61215828034117dd7ce2da82116dd
++ docker attach f1243bf3de77e828b74cefea199751941dc61215828034117dd7ce2da82116dd
+2019-07-21 [build.py:76:INFO] Namespace(diff='6', jenkinks_url='http://127.0.0.1:8888/job/BeforePipeline/18/', repo_uri='ssh://git@127.0.0.1:2222/diffusion/SCRIPTSTAGE/script.git', revision='3', stage_uri='ssh://git@127.0.0.1:2222/diffusion/4/scriptstage.git')
+2019-07-21 [build.py:28:INFO] Revision status: 0
+2019-07-21 [build.py:37:INFO] Build status: 0
+2019-07-21 [build.py:46:INFO] Title msg: NOTE: build pass
+2019-07-21 [build.py:55:INFO] | Build | Klockworks | Coverity | UT/FT 
+                       | ----- | ----- | ----- | ----- 
+                       | {icon check color=green} | {icon check color=green} | {icon check color=green} | {icon check color=green} 
+                       | [[http://127.0.0.1:8888/job/BeforePipeline/18/ | Link]] | [[http://127.0.0.1:8888/job/BeforePipeline/18/ | Link]] | [[http://127.0.0.1:8888/job/BeforePipeline/18/ | Link]] | [[http://127.0.0.1:8888/job/BeforePipeline/18/ | Link]] 
+                    
+Finished: SUCCESS
